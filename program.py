@@ -8,11 +8,12 @@ import random
 
 
 def number_calculator(ranom_numbers, small_number):
+    # this function tells which number is lower
+
     for loop_counter in ranom_numbers:
         if small_number > loop_counter:
             small_number = loop_counter
-        else:
-            pass
+
     return small_number
 
 
